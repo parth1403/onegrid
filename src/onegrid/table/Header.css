@@ -1,0 +1,16 @@
+.OneGrid-header {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.OneGrid-header th {
+    word-wrap: break-word;
+    padding: 8px;
+    border: 1px solid #ddd;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}

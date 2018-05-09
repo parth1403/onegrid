@@ -1,0 +1,24 @@
+.OneGrid-body {
+    display: block;
+    height: 200px;
+    overflow: auto;
+}
+
+.OneGrid-body td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.OneGrid-body tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.OneGrid-body tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.OneGrid-body tr:hover {
+    background-color: #ddd;
+}

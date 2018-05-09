@@ -1,9 +1,10 @@
 import * as React from "react";
 import "./App.css";
+import Grid from "./Grid";
 
 import logo from "./logo.svg";
 
-class App extends React.Component {
+class App extends React.Component<{}, {}> {
   public render() {
     return (
       <div className="App">
@@ -11,9 +12,9 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <div className="App-intro">
+          <Grid />
+        </div>
       </div>
     );
   }
